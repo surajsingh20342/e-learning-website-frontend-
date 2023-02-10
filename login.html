@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: aliceblue;
+        }
+        .home{
+            float: right;
+            background-color: black;
+            color: white;
+            padding: 10px 50px 10px 50px;
+            font-size: medium;
+            border-radius: 10px;
+        }
+        .SignUp{
+            float: left;
+            background-color: black;
+            color: white;
+            padding: 10px 50px 10px 50px;
+            font-size: medium;
+            border-radius: 10px;
+        }
+        .signin{
+            background-color: yellow;
+            color: black;
+            width: 100%;
+            border: none;
+            cursor: pointer;
+            font-weight: 1000;
+            padding: 15px;
+            margin: 10px 10px;
+        }
+        input[type="text"], input[type="password"]{
+            width: 100%;
+            padding: 12px 20px;
+            border: 2px solid black;
+            display: inline-block;
+            box-sizing: border-box;
+        }
+        .container{
+            font-size: medium;
+            background-color: aquamarine;
+        }
+        form{
+            border: 3px solid #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <button class="SignUp" onclick="document.location='registration.html'">Sign Up</button>
+    <button class="home" onclick="document.location='index1.html'">Home</button>
+    <br><br><center><h1><strong>Login</strong></h1></center>
+    <form>
+        <div class="container">
+            <br><br><label><strong>Username :</strong></label>
+            <input type="text" placeholder="Enter Username" name="Username" required><br>
+            <label> <strong>Password :</strong></label>
+            <input type="text" placeholder="Enter Password" name="Password" required><br><br>
+            <button class="signin" type="submit">Sign In</button><br><br>
+                      
+        </div>
+    </form>
+</body>
+</html>
